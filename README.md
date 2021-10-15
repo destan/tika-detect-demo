@@ -1,13 +1,11 @@
-## Micronaut 3.1.0 Documentation
+POST /attachments/upload HTTP/1.1
+Host: localhost:8080
+Content-Length: 187
+Content-Type: multipart/form-data; boundary=----WebKitFormBoundary7MA4YWxkTrZu0gW
 
-- [User Guide](https://docs.micronaut.io/3.1.0/guide/index.html)
-- [API Reference](https://docs.micronaut.io/3.1.0/api/index.html)
-- [Configuration Reference](https://docs.micronaut.io/3.1.0/guide/configurationreference.html)
-- [Micronaut Guides](https://guides.micronaut.io/index.html)
+----WebKitFormBoundary7MA4YWxkTrZu0gW
+Content-Disposition: form-data; name="file"; filename="SampleDOC.doc"
+Content-Type: application/msword
 
----
-
-## Feature http-client documentation
-
-- [Micronaut HTTP Client documentation](https://docs.micronaut.io/latest/guide/index.html#httpClient)
-
+(data)
+----WebKitFormBoundary7MA4YWxkTrZu0gW
