@@ -37,7 +37,7 @@ dependencies {
     runtimeOnly("com.fasterxml.jackson.module:jackson-module-kotlin")
 
     // https://mvnrepository.com/artifact/org.apache.tika/tika-parsers
-    implementation("org.apache.tika:tika-parsers:2.1.0")
+    implementation("org.apache.tika:tika-parsers-standard-package:2.1.0")
     // https://mvnrepository.com/artifact/org.apache.tika/tika-core
     implementation("org.apache.tika:tika-core:2.0.0")
 

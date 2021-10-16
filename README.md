@@ -11,3 +11,7 @@ Content-Type: application/msword
 (data)
 ----WebKitFormBoundary7MA4YWxkTrZu0gW
 ```
+
+`SampleDOCX.docx` -> `application/x-tika-ooxml`
+`failingSampleCreatedByLibreOffice.docx` -> `application/x-tika-ooxml`
+`workingSampleFromRealOffice` -> `application/vnd.openxmlformats-officedocument.wordprocessingml.document`
